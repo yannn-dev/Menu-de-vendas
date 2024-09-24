@@ -3,6 +3,7 @@ using System.Numerics;
 using System.Linq;
 using System.Collections.Generic;
 using static Menu_de_vendas.Program;
+using System.Security.Principal;
 
 namespace Menu_de_vendas
 {
@@ -43,7 +44,7 @@ namespace Menu_de_vendas
             produto10.Nome = "Molho de Tomate";
             produto10.Preco = 2.98;
 
-            
+
 
 
 
@@ -56,8 +57,8 @@ namespace Menu_de_vendas
                 Console.WriteLine("4. Sair");
                 escolha = int.Parse(Console.ReadLine());
 
-               if (escolha == 1) 
-               { 
+                if (escolha == 1)
+                {
                     Console.Clear();
                     Console.WriteLine("Lista de produtos");
                     Console.WriteLine("\n1. Cartela com 20 ovos - R$10,95");
@@ -72,7 +73,18 @@ namespace Menu_de_vendas
                     Console.WriteLine("10. Molho de Tomate - R$2,98");
                     Console.WriteLine("\nPara adicionar o produto ao carrinho, digite o seu número correspondente:");
                     int produto = int.Parse(Console.ReadLine());
-                    
+
+                    int limite = listaProdutos.Count();
+
+                    if (limite > 10)
+                    {
+                        Console.WriteLine("\nLimite do carrinho excedido.");
+                        Console.WriteLine("Pressiona qualquer tecla para fechar...");
+                        Console.ReadKey();
+                        break;
+                    }
+
+
                     switch (produto)
                     {
                         case 1:
@@ -106,8 +118,9 @@ namespace Menu_de_vendas
                             listaProdutos.Add(produto10);
                             break;
                     }
-               }
-               if (escolha == 2)
+
+                }
+                if (escolha == 2)
                 {
                     Console.Clear();
                     foreach (Produtos produto in listaProdutos)
@@ -118,8 +131,8 @@ namespace Menu_de_vendas
                     Console.WriteLine("\nPressione qualquer tecla para voltar ao menu...");
                     Console.ReadKey();
                 }
-               
-               if(escolha == 3)
+
+                if (escolha == 3)
                 {
                     Console.Clear();
                     Console.WriteLine("Itens no carrinho: ");
@@ -130,13 +143,18 @@ namespace Menu_de_vendas
                     }
 
                     double total = listaProdutos.Sum(produto => produto.Preco);
-
-
-
+                    Console.WriteLine("Total a pagar: R$" + total);
+                    listaProdutos.Clear();
+                    Console.WriteLine("Pressiona qualquer tecla para finalizar...");
+                    Console.ReadKey();
+                }
+                if (escolha == 4)
+                {
+                    break;
                 }
 
-            } while (escolha != 4) ;
-           
+            } while (escolha != 4);
+
         }
         public class Produtos()
         {

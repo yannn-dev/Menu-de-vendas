@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\prefe\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaique\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Menu de vendas\\Menu de vendas.csproj",
+      "projectUniqueName": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Menu-de-vendas\\Menu de vendas.csproj",
       "projectName": "Menu de vendas",
-      "projectPath": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Menu de vendas\\Menu de vendas.csproj",
-      "packagesPath": "C:\\Users\\prefe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prefe\\OneDrive\\Documentos\\Projetos\\C#\\Menu de vendas\\obj\\",
+      "projectPath": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Menu-de-vendas\\Menu de vendas.csproj",
+      "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaique\\Documents\\Projetos\\C#\\Menu-de-vendas\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\prefe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
