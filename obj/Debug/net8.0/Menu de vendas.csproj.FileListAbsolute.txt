@@ -1,0 +1,14 @@
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\bin\Debug\net8.0\Menu de vendas.exe
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\bin\Debug\net8.0\Menu de vendas.deps.json
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\bin\Debug\net8.0\Menu de vendas.runtimeconfig.json
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\bin\Debug\net8.0\Menu de vendas.dll
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\bin\Debug\net8.0\Menu de vendas.pdb
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.AssemblyInfoInputs.cache
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.AssemblyInfo.cs
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.csproj.CoreCompileInputs.cache
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.dll
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\refint\Menu de vendas.dll
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.pdb
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\Menu de vendas.genruntimeconfig.cache
+C:\Users\prefe\OneDrive\Documentos\Projetos\C#\Menu de vendas\obj\Debug\net8.0\ref\Menu de vendas.dll
