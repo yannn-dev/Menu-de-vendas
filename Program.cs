@@ -1,4 +1,8 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Numerics;
+using System.Linq;
+using System.Collections.Generic;
+using static Menu_de_vendas.Program;
 
 namespace Menu_de_vendas
 {
@@ -125,9 +129,10 @@ namespace Menu_de_vendas
                         Console.WriteLine("R$" + produto.Preco);
                     }
 
-                    
+                    double total = listaProdutos.Sum(produto => produto.Preco);
 
-                    
+
+
                 }
 
             } while (escolha != 4) ;
